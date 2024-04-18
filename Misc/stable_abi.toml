@@ -702,7 +702,6 @@
     added = '3.2'
 [function.PyEval_InitThreads]
     added = '3.2'
-    abi_only = true
 [function.PyEval_ReleaseLock]
     added = '3.2'
     abi_only = true
@@ -2499,4 +2498,10 @@
 [function.PyType_GetFullyQualifiedName]
     added = '3.13'
 [function.PyType_GetModuleName]
+    added = '3.13'
+[function.Py_GetConstant]
+    added = '3.13'
+[function.Py_GetConstantBorrowed]
+    added = '3.13'
+[function.PyType_GetModuleByDef]
     added = '3.13'
